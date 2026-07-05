@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GR CORPORATION | Engineering. Racing. Innovation.</title>
+    <meta name="description" content="Grupo empresarial dedicado al desarrollo de soluciones innovadoras en ingeniería, automovilismo y tecnología de vanguardia.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">GR CORPORATION</a>
+            <button class="menu-toggle" aria-label="Abrir menú">
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#divisions">Divisiones</a></li>
+                <li><a href="#season">Temporada 0</a></li>
+                <li><a href="#gallery">Galería</a></li>
+                <li><a href="#news">Noticias</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero-section">
+        <div class="hero-bg" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)), url('assets/hero-bg.jpg');">
+            </div>
+
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-up">GR CORPORATION</h1>
+            <p class="hero-subtitle animate-fade-up delay-1">
+                <span>Engineering.</span>
+                <span>Racing.</span>
+                <span>Innovation.</span>
+            </p>
+            <a href="#about" class="btn btn-primary animate-fade-up delay-2 smooth-scroll">Explore</a>
+        </div>
+    </header>
+
+    <section id="about" class="about-section scroll-reveal">
+        <div class="container">
+            <p class="section-tag">Corporate Profile</p>
+            <h2 class="section-title">El futuro se diseña desde el presente.</h2>
+            <div class="about-content">
+                <p>GR Corporation opera como un ecosistema empresarial global enfocado en empujar los límites del rendimiento, la ingeniería avanzada y la innovación tecnológica. No solo competimos en las industrias del mañana; definimos sus bases mediante la sinergia de nuestras divisiones especializadas.</p>
+                <p>Nuestra misión es concebir y materializar soluciones de alta ingeniería con un estándar intransigente de precisión, excelencia y evolución constante.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="divisions" class="divisions-section scroll-reveal">
+        <div class="container">
+            <p class="section-tag">Ecosystem</p>
+            <h2 class="section-title">Divisiones Globales</h2>
+            
+            <div class="divisions-grid">
+                
+                <div class="division-card">
+                    <div class="card-img" style="background-image: url('assets/div-academy.jpg');"></div>
+                    <div class="card-content">
+                        <h3>GR Academy</h3>
+                        <p>Academia de alto rendimiento y formación integral para pilotos profesionales.</p>
+                        <a href="#" class="btn btn-secondary">Conocer</a>
+                    </div>
+                </div>
+
+                <div class="division-card">
+                    <div class="card-img" style="background-image: url('assets/div-racing.jpg');"></div>
+                    <div class="card-content">
+                        <h3>GR Racing</h3>
+                        <p>Equipo oficial de competencia en circuitos internacionales de máxima exigencia.</p>
+                    </div>
+                </div>
+
+                <div class="division-card">
+                    <div class="card-img" style="background-image: url('assets/div-kart.jpg');"></div>
+                    <div class="card-content">
+                        <h3>GR Hybrid Kart Series</h3>
+                        <p>El campeonato de karting híbrido más competitivo y accesible del ecosistema.</p>
+                        <a href="#" class="btn btn-secondary">Ver Temporada 0</a>
+                    </div>
+                </div>
+
+                <div class="division-card">
+                    <div class="card-img" style="background-image: url('assets/div-tech.jpg');"></div>
+                    <div class="card-content">
+                        <h3>GR Tech</h3>
+                        <p>Desarrollo y distribución de hardware premium, componentes de vanguardia y arquitectura tecnológica.</p>
+                    </div>
+                </div>
+
+                <div class="division-card coming-soon-card">
+                    <div class="card-img" style="background-image: url('assets/div-industries.jpg');"></div>
+                    <div class="card-content">
+                        <div class="badge">COMING SOON</div>
+                        <h3>GR Industries</h3>
+                        <ul class="sub-list">
+                            <li>Engineering Division</li>
+                            <li>Advanced Manufacturing</li>
+                            <li>Research & Development</li>
+                        </ul>
+                    </div>
+                </div>
+
+                </div>
+        </div>
+    </section>
+
+    <section id="season" class="season-section scroll-reveal">
+        <div class="container">
+            <p class="section-tag">Championship</p>
+            <h2 class="section-title">Temporada 0</h2>
+            <h3 class="season-date">Agosto 2026</h3>
+            
+            <div class="countdown-container">
+                <div class="countdown-item">
+                    <span id="days">00</span>
+                    <label>Días</label>
+                </div>
+                <div class="countdown-item">
+                    <span id="hours">00</span>
+                    <label>Horas</label>
+                </div>
+                <div class="countdown-item">
+                    <span id="minutes">00</span>
+                    <label>Minutos</label>
+                </div>
+                <div class="countdown-item">
+                    <span id="seconds">00</span>
+                    <label>Segundos</label>
+                </div>
+            </div>
+
+            <button class="btn btn-disabled" disabled>Próximamente</button>
+        </div>
+    </section>
+
+    <section class="sponsors-section scroll-reveal">
+        <div class="container">
+            <p class="section-tag text-center">Partners & Sponsors</p>
+            
+            <div class="sponsors-carousel">
+                <div class="sponsors-track">
+                    <div class="sponsor-logo"><img src="assets/sponsor1.png" alt="Sponsor 1"></div>
+                    <div class="sponsor-logo"><img src="assets/sponsor2.png" alt="Sponsor 2"></div>
+                    <div class="sponsor-logo"><img src="assets/sponsor3.png" alt="Sponsor 3"></div>
+                    <div class="sponsor-logo"><img src="assets/sponsor4.png" alt="Sponsor 4"></div>
+                    <div class="sponsor-logo"><img src="assets/sponsor5.png" alt="Sponsor 5"></div>
+                    <div class="sponsor-logo"><img src="assets/sponsor1.png" alt="Sponsor 1"></div>
+                    <div class="sponsor-logo"><img src="assets/sponsor2.png" alt="Sponsor 2"></div>
+                    <div class="sponsor-logo"><img src="assets/sponsor3.png" alt="Sponsor 3"></div>
+                    <div class="sponsor-logo"><img src="assets/sponsor4.png" alt="Sponsor 4"></div>
+                    <div class="sponsor-logo"><img src="assets/sponsor5.png" alt="Sponsor 5"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section scroll-reveal">
+        <div class="container">
+            <p class="section-tag">Media Assets</p>
+            <h2 class="section-title">Galería Multimedial</h2>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/gal-1.jpg" alt="GR Gallery Item 1">
+                </div>
+
+                <div class="gallery-item">
+                    <video controls muted poster="assets/gal-video-poster.jpg">
+                        <source src="assets/gal-video.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="gallery-item video-responsive">
+                    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="GR YouTube Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="assets/gal-2.jpg" alt="GR Gallery Item 2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="news-section scroll-reveal">
+        <div class="container">
+            <p class="section-tag">Insights</p>
+            <h2 class="section-title">Últimas Noticias</h2>
+            
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-img" style="background-image: url('assets/news-1.jpg');"></div>
+                    <div class="news-info">
+                        <span class="news-date-tag">04 JUL 2026</span>
+                        <h3>Desarrollo del tren motriz híbrido de última generación</h3>
+                        <p>Nuestra división de ingeniería completa las primeras pruebas dinámicas del nuevo motor destinado a las escuderías oficiales.</p>
+                        <a href="#" class="btn-text">Leer más →</a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-img" style="background-image: url('assets/news-2.jpg');"></div>
+                    <div class="news-info">
+                        <span class="news-date-tag">28 JUN 2026</span>
+                        <h3>GR Tech expande infraestructura de servidores masivos</h3>
+                        <p>Implementación de nueva arquitectura de cómputo avanzado para optimización telemétrica en tiempo real.</p>
+                        <a href="#" class="btn-text">Leer más →</a>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-img" style="background-image: url('assets/news-3.jpg');"></div>
+                    <div class="news-info">
+                        <span class="news-date-tag">15 JUN 2026</span>
+                        <h3>Inauguración oficial de la academia de pilotos en Europa</h3>
+                        <p>El centro de simulación e inmersión física abre sus puertas para la captación de talentos élite de este año.</p>
+                        <a href="#" class="btn-text">Leer más →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section scroll-reveal">
+        <div class="container">
+            <p class="section-tag text-center">Inquiries</p>
+            <h2 class="section-title text-center">Conecte con GR Corporation</h2>
+            
+            <div class="contact-grid">
+                <a href="https://instagram.com" target="_blank" class="contact-card">
+                    <div class="contact-icon">IG</div>
+                    <h3>Instagram</h3>
+                    <p>@grcorporation</p>
+                </a>
+
+                <a href="mailto:info@grcorporation.com" class="contact-card">
+                    <div class="contact-icon">@@</div>
+                    <h3>Corporate Email</h3>
+                    <p>info@grcorporation.com</p>
+                </a>
+
+                <a href="https://wa.me/xxxxxx" target="_blank" class="contact-card">
+                    <div class="contact-icon">WA</div>
+                    <h3>WhatsApp</h3>
+                    <p>Comunicaciones Directas</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <span class="footer-brand">GR CORPORATION</span>
+            <p class="footer-copy">&copy; 2026 GR Corporation. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
